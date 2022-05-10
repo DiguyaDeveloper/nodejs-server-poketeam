@@ -4,7 +4,7 @@ import {
   getTrainers,
   postTrainer,
   putTrainer
-} from '../app/controllers/trainer.controller';
+} from '../app/modules/trainer/controllers/trainer.controller';
 
 const router = Router();
 
