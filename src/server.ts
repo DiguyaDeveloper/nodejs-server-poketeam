@@ -1,9 +1,9 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import { routes } from './routes/index';
 
 const app = express();
 
-app.get('/health-check', (req, res) => {
+app.get('/health-check', (req: Request, res: Response) => {
   res.send('Well done!');
 });
 
