@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "test-coverage",
+			"problemMatcher": [],
+			"label": "npm: test-coverage",
+			"detail": "ng test --watch=false --code-coverage --browsers=ChromeHeadlessNoSandbox "
+		}
+	]
+}

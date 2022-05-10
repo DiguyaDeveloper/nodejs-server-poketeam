@@ -4,7 +4,7 @@
         "node": true
     },
     "extends": [
-        "standard"
+      "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -12,9 +12,14 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "eslint:recommended",
+        "plugin:node/recommended"
     ],
     "rules": {
-      "semi":"off"
+      "semi":"off",
+      "@typescript-eslint/rule-name": "error",
+      "@typescript-eslint/no-empty-function": "warn",
+      "@typescript-eslint/no-unused-vars": "error",
     }
 }
