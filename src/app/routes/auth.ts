@@ -1,15 +1,12 @@
 import { Router } from 'express';
 import {
   getTrainerById,
-  getTrainers,
   postTrainer,
   putTrainer
-} from '../app/modules/trainer/controllers/trainer.controller';
+} from '../modules/auth/controllers/auth.controller';
 
 const router = Router();
 
-// Get all users
-router.get('', getTrainers);
 // Create Trainer
 router.post('', postTrainer);
 // Get Trainer by id
