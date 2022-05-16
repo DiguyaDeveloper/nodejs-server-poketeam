@@ -4,7 +4,7 @@ import trainer from './trainer';
 
 const routes = Router();
 
-routes.use('/trainer', trainer);
+routes.use('/trainers', trainer);
 routes.use('/auth', auth);
 
-export { routes };
+export default routes;

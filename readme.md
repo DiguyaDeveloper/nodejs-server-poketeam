@@ -41,8 +41,6 @@ Support [me](), if you do too.
 
 Made with ❤️
 
-# crud-typeorm-nodejs-mysql
-
 1. Rota de trainer (Post)
    1.2. Rota de trainer (GetAll) #despriorizado
    1.2. Rota de trainer (GetById)
@@ -57,7 +55,7 @@ Made with ❤️
    3.3 Atualizar time do usuário
 
 4. Poketeam/:id/pokemons
-   4.1 Poketeam/:id/pokemons/:id
+   4.1 Poketeam/:id/pokemons/:id (listar pokemons do time)
 
 - 1 Grupo pokemon
 - 6 pokemons por grupo
