@@ -1,3 +1,4 @@
+import { errors } from 'celebrate';
 import express, { Request, Response } from 'express';
 import routes from './app/routes';
 
@@ -8,7 +9,9 @@ app.get('/health-check', (req: Request, res: Response) => {
 });
 
 app.use('/api', routes);
+app.use(errors());
 
+// Refactor test
 app.listen(3000, () => {
   console.log('The application is listening on port 3000!');
 });
