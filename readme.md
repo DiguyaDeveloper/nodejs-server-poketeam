@@ -55,7 +55,9 @@ Made with ❤️
    3.3 Atualizar time do usuário
 
 4. Poketeam/:id/pokemons
-   4.1 Poketeam/:id/pokemons/:id (listar pokemons do time)
+   4.1 Post Poketeam/:id/pokemons/:id (Incluir pokemon no time)
+   - Validar quantidade < 6
+     4.2 poketeam/idTeam (listar pokemons do time)
 
 - 1 Grupo pokemon
 - 6 pokemons por grupo
@@ -63,3 +65,6 @@ Made with ❤️
 #typescript
 #funcional
 #testes
+
+- Criar dockerfile e dockercompose
+- Utilizar jwt para criar o token
