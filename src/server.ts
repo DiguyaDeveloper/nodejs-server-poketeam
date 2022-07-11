@@ -3,6 +3,7 @@ import express, { Request, Response } from 'express';
 import routes from './app/routes';
 
 const app = express();
+app.use(express.json());
 
 app.get('/health-check', (req: Request, res: Response) => {
   res.send('Well done!');
